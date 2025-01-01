@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Heart, GamepadIcon, Coffee, Calendar, MessageCircle, Gift, Star } from 'lucide-react'
+import { Heart, Star } from 'lucide-react'
 import { Snowfall } from '../components/snowfall'
 import { FloatingImage } from '../components/floating-image'
 import { SideBySide } from '../components/side-by-side'
