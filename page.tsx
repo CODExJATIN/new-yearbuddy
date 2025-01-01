@@ -2,12 +2,12 @@
 
 import { motion } from 'framer-motion'
 import { Heart, GamepadIcon, Coffee, Calendar, MessageCircle, Gift, Star } from 'lucide-react'
-import { Snowfall } from '../components/snowfall'
-import { FloatingImage } from '../components/floating-image'
-import { SideBySide } from '../components/side-by-side'
-import { ImageGrid } from '../components/image-grid'
+import { Snowfall } from './components/snowfall'
+import { FloatingImage } from './components/floating-image'
+import { SideBySide } from './components/side-by-side'
+import { ImageGrid } from './components/image-grid'
 import { Card, CardContent } from "@/components/ui/card"
-import { GiftHighlight } from "../components/gift-highlight";
+import { GiftHighlight } from "./components/gift-highlight";
 
 export default function NewYearWish() {
   return (
@@ -34,18 +34,18 @@ export default function NewYearWish() {
       <section className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <FloatingImage
-            src="/images/1731399727230.jpg"
+            src="/images/CVXYwpQ/1731399727230.jpg"
             alt="Mall memories"
             rotateDirection="left"
           />
           <FloatingImage
-            src="/images/IMG-20250101-192958.jpg"
+            src="/images/MZTRpVk/IMG-20250101-192958.jpg"
             alt="Gaming moments"
             className="mt-12"
             rotateDirection="right"
           />
           <FloatingImage
-            src="/images/IMG-20241231-225354.jpg"
+            src="/images/XxCvCsZ/IMG-20241231-225354.jpg"
             alt="Food adventures"
             rotateDirection="left"
           />
@@ -79,12 +79,12 @@ export default function NewYearWish() {
         </Card>
         <ImageGrid
           images={[
-            { src: "/images/IMG-20240729-WA0036.jpeg", alt: "UNO games" },
-            { src: "/images/champ.webp", alt: "Smash Karts" },
-            { src: "/images/IMG-20241007-WA0025.jpeg", alt: "Ninja Jump" },
+            { src: "/images/IMG-20240729-WA0036.jpg", alt: "UNO games" },
+            { src: "/images/10231476-102139355442-8-s5-100430286826-34-s5-v1.webp", alt: "Smash Karts" },
+            { src: "/images/IMG-20241007-WA0025.jpg", alt: "Ninja Jump" },
             { src: "/images/IMG-20250101-194000.jpg", alt: "Tough Love Arena" },
             { src: "/images/IMG-20240713-WA0118.jpg", alt: "Headball" },
-            { src: "/images/IMG-20241011-WA0011.jpeg", alt: "Gaming moments" },
+            { src: "/images/IMG-20241011-WA0011.jpg", alt: "Gaming moments" },
           ]}
         />
       </section>
@@ -174,7 +174,7 @@ export default function NewYearWish() {
 
       {/* Special Moments Grid */}
       <section className="container mx-auto px-4 py-16">
-        <h2 className="text-3xl font-bold text-center mb-12">Memories</h2>
+        <h2 className="text-3xl font-bold text-center mb-12">Special Moments</h2>
         <ImageGrid
           images={[
             { src: "/images/IMG-20241231-230301.jpg", alt: "The monkey gift" },
